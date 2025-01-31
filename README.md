@@ -56,3 +56,35 @@ npm install @vee-validate/yup
 
 --- usamos las variables reactivas o ref value para crear variables dinamicas
 --- Tambien usamos la funcion watch para ver los cambios que se realizar en alguna parte de nuestra pagina
+
+## Consumir API'S en VueJs con Axios
+
+### Axios Lint with [ESLint](https://axios-http.com/es/)
+
+--- Vamos a aprnder a consumir apis usando vuejs, en este caso empezaremos instalando la dependencia de axios
+
+```sh
+npm install axios
+```
+
+--- axios es parecido a fetch, son librerias que nos permiten hacer peticiones (get, post, put, delete, etc) http 0 https que nosotros configuremos
+--- las peticiones con axios al igual que fetch se hacen con funciones asyncronas
+
+#### hemos creado weatherStore.js para crear una funcion de pinia donde se almacerara los datos que consumiremos en nuestra api
+
+## Los composables
+
+--- los composables son codigos repetitivos que usaremos varias veces en nuestro programa de vuejs
+--- para ello creamos una carpeta de nombre composable donde crearemos estos codigos y lo importaremos desde ahi a donde
+--- queramos usarlos
+--- todos los archivos composables siempre empiezan con la palabra use
+
+## Helpers
+
+--- En los hepers creamos los archvios que nos van a permitir realizar peticiones de tipo http o https con axios
+
+### Weather Api Lint with [ESLint](https://open-meteo.com/en/docs/)
+
+### onMounted es una funcion de vue
+
+--- lo que hace onMounted es

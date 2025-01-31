@@ -1,4 +1,7 @@
 <template>
+
+    <HeaderView></HeaderView>
+
     <div class="container">
       <SideBar></SideBar>
 
@@ -13,7 +16,7 @@
 
 <script setup>
 import SideBar from '@/components/SideBar.vue';
-
+import HeaderView from '@/components/HeaderView.vue';
 </script>
 
 
