@@ -47,3 +47,12 @@ npm install vee-validate --save
 ```sh
 npm install @vee-validate/yup
 ```
+
+## Pinia Lint with [ESLint](https://pinia.vuejs.org/)
+
+### Pinia es una biblioteca de almacenamiento de VueJs que nos permite compartir un estado entre componentes y paginas
+
+### La idea de pinia es que podamos usar nuestros componentes en otras paginas
+
+--- usamos las variables reactivas o ref value que se usa para crear variables dinamicas
+--- Tambien usamos la funcion watch para ver los cambios que se realizar en alguna parte de nuestra pagina
