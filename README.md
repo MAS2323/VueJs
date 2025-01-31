@@ -54,5 +54,5 @@ npm install @vee-validate/yup
 
 ### La idea de pinia es que podamos usar nuestros componentes en otras paginas
 
---- usamos las variables reactivas o ref value que se usa para crear variables dinamicas
+--- usamos las variables reactivas o ref value para crear variables dinamicas
 --- Tambien usamos la funcion watch para ver los cambios que se realizar en alguna parte de nuestra pagina
