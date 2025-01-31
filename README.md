@@ -33,3 +33,17 @@ npm run build
 ```sh
 npm run lint
 ```
+
+-- En los proyectos de Vuejs es habitual trabajar con modulos
+
+### usamos esta dependencia para validar formularios
+
+```sh
+npm install vee-validate --save
+```
+
+### yup es una dependencia que se usa para hacer validacion de formularios de forma automaica
+
+```sh
+npm install @vee-validate/yup
+```
