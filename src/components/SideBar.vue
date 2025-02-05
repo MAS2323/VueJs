@@ -15,24 +15,17 @@
       </li>
     </ul>
   </div>
-
 </template>
 
-
 <script setup>
-import { useRegistrarStore } from '@/modules/registro/stores/registrarStore';
+import { useRegistrarStore } from "@/modules/registro/stores/registrarStore";
 const registrarStore = useRegistrarStore();
-
-
 </script>
 
-
 <style scoped>
-
-.sidebar{
+.sidebar {
   background-color: #f0f0f0;
   padding: 20px;
   width: 200px;
-
 }
 </style>

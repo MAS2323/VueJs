@@ -88,3 +88,18 @@ npm install axios
 ### onMounted es una funcion de vue
 
 --- lo que hace onMounted es
+
+## Los componentes padres he hijos
+
+--- Los componenetes padres son cmponentes que tienen a otros componentes en su interior Ejempo: MainView.vue
+--- MainView.vue tiene en su interior a componentes como HeaderView, SideBar.vue y router-viw
+
+--- podemos pasar variables (recativas) de un componente a otro
+
+#### Otra forma de pasar parametros entre componentes padres e hijos sin usar pinia es usando las propiedades o el definePropos
+
+```sh
+import { defineProps } from "vue";
+```
+
+--- Haciendo esta importancion, podremos definir funciones que nos van a permitir recibir datos desde un componente padre
